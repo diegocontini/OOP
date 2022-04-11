@@ -1,7 +1,3 @@
-'''
-Atributos: LadoA, LadoB (ou Comprimento e Largura, ou Base e Altura, a escolher)
-Métodos: Mudar valor dos lados, Retornar valor dos lados, calcular Área e calcular Perímetro;
-'''
 class rectangle():
     def __init__(self,base,altura,proprietario,lote, quantidade): 
         self.base = base
