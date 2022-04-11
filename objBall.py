@@ -41,35 +41,5 @@ bola1.encherBola()
 
 bola1.precoBola(input(f'Sabendo que o valor atual da bola é: {bola1.preco}\nDigite "+" para aumentar o valor da bola em 5, ou "-" para diminuir seu valor em 5:'))
 
-
-
-'''
-exemplos:
-#Exemplo netflix
-
-class Cliente():
-    def __init__(self,nome,email,plano):
-        self.nome = nome
-        self.email = email
-        self.signo = ''
-        self.lista_plano = ['Basic','Premium']
-        if plano in self.lista_plano:
-            self.plano = plano
-        else:
-            raise Exception("Plano inválido, por favor selecione um dos disponíveis(Basic ou Premium)")
-    
-    def alterar_plano(self,novo_plano):
-        if novo_plano in self.lista_plano:
-            self.plano = novo_plano
-        else:
-            print("Plano inválido!")
-
-
-
-Cliente1 = Cliente("Diego","diconediego@outlook.com",'Premium')
-
-Cliente1.signo = 'seqso'
-print(Cliente1.signo)
-'''
         
 
