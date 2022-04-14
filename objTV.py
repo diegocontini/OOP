@@ -1,7 +1,3 @@
-from logging import exception
-from xml.sax.handler import DTDHandler
-
-
 class tv():
     def __init__(self,canal):
         self.canal = canal
